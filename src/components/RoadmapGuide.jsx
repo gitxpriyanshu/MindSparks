@@ -55,7 +55,7 @@ const RoadmapGuide = () => {
           <a href="#" onClick={(e) => {
             e.preventDefault();
             navigate('/');
-          }}>← Back to Ideas</a>
+          }}>Back to Ideas</a>
         </div>
         <div className="no-roadmap">
           <h2>No roadmap available for this category.</h2>
@@ -82,7 +82,7 @@ const RoadmapGuide = () => {
         <a href="#" onClick={(e) => {
           e.preventDefault();
           navigate('/');
-        }}>← Back to Ideas</a>
+        }}>Back to Ideas</a>
       </div>
       
       <h1>{guide.title}</h1>
