@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+/* Idea Card Styles */
+.idea-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1.5rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.idea-card:hover {
+  transform: translateY(-5px);
+}
+
+.idea-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.category-label {
+  background: #f0f0f0;
+  color: #666;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.idea-content {
+  flex: 1;
+}
+
+.idea-front h3 {
+  color: #333;
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.idea-back p {
+  color: #666;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.idea-footer {
+  margin-top: auto;
+}
+
+.roadmap-button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.roadmap-button:hover {
+  background: #357abd;
+}
