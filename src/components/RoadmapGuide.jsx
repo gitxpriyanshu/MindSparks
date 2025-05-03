@@ -101,7 +101,16 @@ const RoadmapGuide = () => {
         <h2>Roadmap</h2>
         <ol>
           {guide.roadmap.map((step, index) => (
-            <li key={index}>{step}</li>
+            <li key={index}>
+              <div className="step-content">
+                <div className="step-title">{step}</div>
+                <p className="step-description">
+                  {guide.descriptions && guide.descriptions[index] 
+                    ? guide.descriptions[index] 
+                    : `Detailed implementation guide for ${step.toLowerCase()}`}
+                </p>
+              </div>
+            </li>
           ))}
         </ol>
       </section>

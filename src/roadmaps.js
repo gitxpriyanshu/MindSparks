@@ -11,6 +11,14 @@ const roadmapGuides = {
       "Add SEO optimization tools",
       "Implement collaboration features"
     ],
+    descriptions: [
+      "Develop a visual calendar for planning, scheduling, and organizing video content. Features should include drag-and-drop functionality, reminders, and integration with publishing platforms.",
+      "Create a system to manage all aspects of video production, including scripting, shooting, editing, and publishing. Allow users to track project status, assign tasks, and set deadlines.",
+      "Build a dashboard that aggregates and visualizes key performance metrics such as views, watch time, subscriber growth, and engagement. Include customizable charts and export options.",
+      "Implement a tool for generating and editing video thumbnails. Provide templates, image editing features, and best practice tips for creating eye-catching thumbnails.",
+      "Add tools to help optimize video titles, descriptions, and tags for search engines. Include keyword suggestions, SEO scoring, and competitor analysis.",
+      "Enable collaboration among team members with shared project boards, real-time editing, and communication tools. Support permissions, version control, and activity logs."
+    ],
     resources: {
       "YouTube Data API": "API for accessing YouTube analytics and channel data",
       "React.js": "Frontend framework for building the user interface",
@@ -30,6 +38,19 @@ const roadmapGuides = {
       "Add engagement tracking",
       "Implement AI-powered caption suggestions",
       "Create automated posting system"
+    ],
+    descriptions: [
+      "Design and implement a drag-and-drop interface for planning Instagram grid layouts. Features include template presets, color scheme analysis, and visual preview of how posts will appear in the feed. Users can arrange posts, add placeholders, and maintain aesthetic consistency.",
+      
+      "Develop a comprehensive scheduling system with calendar integration, time zone support, and optimal posting time suggestions. Include features for batch scheduling, post queuing, and automated reminders. Support for both single posts and carousel content.",
+      
+      "Create an intelligent hashtag analysis tool that suggests relevant hashtags based on content, tracks hashtag performance, and identifies trending topics. Features include hashtag grouping, performance metrics, and competitor hashtag analysis.",
+      
+      "Implement detailed engagement tracking with metrics for likes, comments, saves, and shares. Create visual analytics dashboards showing engagement patterns, audience growth, and content performance. Include features for tracking competitor engagement.",
+      
+      "Develop an AI-powered caption generator that creates engaging captions based on image content, brand voice, and trending topics. Include features for emoji suggestions, hashtag integration, and tone customization. Support for multiple languages.",
+      
+      "Build an automated posting system with features for content queuing, error handling, and post verification. Include support for multiple Instagram accounts, content recycling, and emergency post cancellation. Integration with Instagram's API for reliable posting."
     ],
     resources: {
       "Instagram Graph API": "API for Instagram content management",
@@ -51,6 +72,14 @@ const roadmapGuides = {
       "Add progress photo comparison",
       "Implement AI form checking"
     ],
+    descriptions: [
+      "Develop an intuitive interface for users to log workouts, including exercises, sets, reps, and weights. Support custom routines, quick entry, and workout templates.",
+      "Create a system to track user progress over time, visualizing metrics such as weight, body measurements, and personal records. Include charts, milestones, and goal tracking.",
+      "Build a calculator that helps users estimate daily caloric needs and macronutrient breakdowns based on their goals. Allow users to log meals and track nutrition.",
+      "Develop a searchable library of exercises with instructions, images, and videos. Allow users to add custom exercises and filter by muscle group or equipment.",
+      "Enable users to upload and compare progress photos side-by-side. Provide privacy controls, date stamps, and visual progress indicators.",
+      "Integrate AI to analyze exercise form using video or photo input. Provide real-time feedback, tips for improvement, and track form consistency over time."
+    ],
     resources: {
       "TensorFlow.js": "Machine learning for form checking",
       "React Native": "Cross-platform mobile development",
@@ -70,6 +99,14 @@ const roadmapGuides = {
       "Add analytics dashboard",
       "Build audience insights",
       "Implement content distribution"
+    ],
+    descriptions: [
+      "Develop a feature-rich text editor supporting formatting, media embedding, and autosave. Include markdown support, version history, and collaborative editing.",
+      "Create a calendar for planning and scheduling blog posts. Allow users to set deadlines, assign topics, and visualize publishing frequency.",
+      "Implement tools to analyze and improve SEO for blog posts. Provide keyword suggestions, readability analysis, and on-page optimization tips.",
+      "Build a dashboard to track blog performance metrics such as page views, bounce rate, and average read time. Include customizable reports and export options.",
+      "Develop insights into audience demographics, behavior, and engagement. Provide actionable recommendations to grow readership and increase retention.",
+      "Enable automated and manual distribution of content to social media, newsletters, and syndication platforms. Track distribution performance and engagement."
     ],
     resources: {
       "Draft.js": "Rich text editing framework",
@@ -91,6 +128,14 @@ const roadmapGuides = {
       "Create design asset library",
       "Implement feedback system"
     ],
+    descriptions: [
+      "Develop an interface for managing design projects, including task lists, deadlines, and project milestones. Support project templates and progress tracking.",
+      "Integrate version control for design files, allowing users to save, revert, and compare different versions. Support branching and merging for collaborative work.",
+      "Build a tool for creating and organizing mood boards with images, colors, and typography. Allow sharing and real-time collaboration with clients or team members.",
+      "Add tools for seamless client collaboration, including file sharing, feedback threads, and approval workflows. Support notifications and activity tracking.",
+      "Create a centralized library for storing and organizing design assets such as icons, images, and templates. Support tagging, search, and usage analytics.",
+      "Implement a feedback system for collecting, organizing, and responding to client or team feedback. Support inline comments, status tracking, and resolution history."
+    ],
     resources: {
       "Figma API": "Design tool integration",
       "React.js": "Frontend framework",
@@ -110,6 +155,14 @@ const roadmapGuides = {
       "Build basic editing tools",
       "Add booking calendar",
       "Implement automated delivery"
+    ],
+    descriptions: [
+      "Develop a system to manage photo shoots, including scheduling, shot lists, and client requirements. Support reminders and location management.",
+      "Create tools for organizing photos by date, event, or client. Support tagging, rating, and batch operations for efficient management.",
+      "Build a secure gallery system for clients to view, select, and download photos. Support password protection, watermarks, and order tracking.",
+      "Implement basic photo editing tools such as cropping, color correction, and filters. Allow batch editing and non-destructive changes.",
+      "Add a booking calendar for scheduling shoots, managing availability, and sending automated reminders to clients.",
+      "Enable automated delivery of final photos to clients via secure links or downloads. Support delivery tracking and expiration controls."
     ],
     resources: {
       "Sharp.js": "Image processing library",
@@ -131,6 +184,14 @@ const roadmapGuides = {
       "Create meal planning tools",
       "Implement recipe scaling"
     ],
+    descriptions: [
+      "Develop an interface for creating, editing, and organizing recipes. Support ingredient lists, instructions, and media attachments.",
+      "Implement a calculator to estimate the cost of recipes based on ingredient prices and quantities. Allow users to update prices and generate shopping lists.",
+      "Build a tool to analyze the nutritional content of recipes, including calories, macronutrients, and vitamins. Support custom ingredient entries.",
+      "Add inventory management features to track ingredient stock, expiration dates, and usage. Support alerts for low stock and integration with shopping lists.",
+      "Create tools for planning meals over days or weeks, generating shopping lists, and tracking dietary goals. Support templates and recurring plans.",
+      "Implement recipe scaling to adjust ingredient quantities for different serving sizes. Support automatic recalculation of nutrition and cost."
+    ],
     resources: {
       "USDA Food Database API": "Nutrition data source",
       "Vue.js": "Frontend framework",
@@ -150,6 +211,14 @@ const roadmapGuides = {
       "Add track sharing features",
       "Build basic mixing tools",
       "Implement distribution system"
+    ],
+    descriptions: [
+      "Develop a system for organizing music projects, including song ideas, arrangements, and production notes. Support project templates and progress tracking.",
+      "Implement high-quality audio recording tools with support for multiple tracks, effects, and real-time monitoring. Allow exporting in various formats.",
+      "Create tools for collaborating with other musicians, including file sharing, version control, and real-time editing. Support feedback and approval workflows.",
+      "Add features for sharing tracks with collaborators, clients, or fans. Support private links, download controls, and feedback collection.",
+      "Build basic mixing tools for adjusting levels, panning, and effects. Support presets, automation, and non-destructive editing.",
+      "Implement a distribution system for releasing music to streaming platforms, stores, and social media. Support scheduling, analytics, and royalty tracking."
     ],
     resources: {
       "Web Audio API": "Audio processing",
@@ -171,6 +240,14 @@ const roadmapGuides = {
       "Create distribution tools",
       "Implement analytics tracking"
     ],
+    descriptions: [
+      "Develop a system for planning podcast episodes, including topic selection, research notes, and scheduling. Support templates and recurring segments.",
+      "Implement a user-friendly interface for recording podcast episodes, with support for remote guests, multi-track recording, and live editing.",
+      "Build an editor for creating and formatting show notes, including links, timestamps, and resources. Support collaboration and version history.",
+      "Add tools for managing guest invitations, bios, and scheduling. Support automated reminders, consent forms, and guest feedback.",
+      "Create distribution tools for publishing episodes to podcast platforms, social media, and websites. Support scheduling, syndication, and analytics.",
+      "Implement analytics tracking for downloads, listener demographics, and engagement. Provide visual dashboards and exportable reports."
+    ],
     resources: {
       "Web Audio API": "Audio recording and processing",
       "React.js": "Frontend framework",
@@ -190,6 +267,14 @@ const roadmapGuides = {
       "Build documentation tools",
       "Add deployment management",
       "Implement team collaboration"
+    ],
+    descriptions: [
+      "Develop a dashboard for managing development projects, including task lists, milestones, and progress tracking. Support project templates and quick links to repositories.",
+      "Implement an issue tracking system for reporting, assigning, and resolving bugs or feature requests. Support labels, priorities, and notifications.",
+      "Create a code review system for submitting, reviewing, and approving code changes. Support inline comments, approval workflows, and integration with version control.",
+      "Build tools for creating and maintaining project documentation, including wikis, API references, and onboarding guides. Support search and versioning.",
+      "Add deployment management features for automating builds, releases, and rollbacks. Support environment configuration and deployment logs.",
+      "Implement team collaboration tools such as chat, file sharing, and activity feeds. Support permissions, mentions, and integrations with external tools."
     ],
     resources: {
       "GitHub API": "Version control integration",
@@ -211,6 +296,14 @@ const roadmapGuides = {
       "Create progress reports",
       "Implement student feedback"
     ],
+    descriptions: [
+      "Develop a system for planning and organizing lessons, including objectives, materials, and activities. Support templates, sharing, and calendar integration.",
+      "Implement an assignment manager for creating, distributing, and grading assignments. Support submission tracking, deadlines, and feedback.",
+      "Build tools for tracking student grades, attendance, and participation. Support customizable grading schemes and visual progress reports.",
+      "Add content creation tools for building interactive lessons, quizzes, and multimedia resources. Support collaboration and content libraries.",
+      "Create tools for generating progress reports for students, parents, and administrators. Support export to PDF and integration with student information systems.",
+      "Implement a feedback system for collecting and responding to student feedback. Support anonymous surveys, ratings, and follow-up actions."
+    ],
     resources: {
       "Google Classroom API": "Education platform integration",
       "React.js": "Frontend framework",
@@ -230,6 +323,14 @@ const roadmapGuides = {
       "Add performance analytics",
       "Create reporting tools",
       "Implement forecasting"
+    ],
+    descriptions: [
+      "Develop a dashboard for monitoring business operations, including sales, expenses, and key performance indicators. Support real-time updates and customizable widgets.",
+      "Implement financial tracking tools for managing income, expenses, and budgets. Support bank integration, invoicing, and financial reports.",
+      "Build an inventory management system for tracking stock levels, orders, and suppliers. Support barcode scanning, alerts, and reorder automation.",
+      "Add analytics tools for measuring business performance, identifying trends, and benchmarking against goals. Support visual dashboards and drill-down analysis.",
+      "Create reporting tools for generating financial, operational, and compliance reports. Support scheduling, export, and sharing options.",
+      "Implement forecasting tools for predicting sales, expenses, and inventory needs. Support scenario modeling and integration with analytics."
     ],
     resources: {
       "QuickBooks API": "Financial integration",
@@ -251,6 +352,14 @@ const roadmapGuides = {
       "Build artwork archive",
       "Implement pricing calculator"
     ],
+    descriptions: [
+      "Develop a tracker for managing art projects, including deadlines, deliverables, and progress updates. Support project templates and notifications.",
+      "Implement a commission management system for tracking client requests, quotes, and payments. Support contracts, revisions, and delivery tracking.",
+      "Create a portfolio builder for showcasing artwork online. Support customizable layouts, galleries, and integration with social media.",
+      "Add client management tools for tracking contacts, communication, and project history. Support reminders and follow-up actions.",
+      "Build an archive for storing and organizing completed artworks. Support tagging, search, and high-resolution storage.",
+      "Implement a pricing calculator for estimating project costs based on time, materials, and complexity. Support quotes and invoicing."
+    ],
     resources: {
       "Cloudinary": "Image management",
       "React.js": "Frontend framework",
@@ -270,6 +379,14 @@ const roadmapGuides = {
       "Add analytics tracking",
       "Create highlight editor",
       "Implement viewer engagement"
+    ],
+    descriptions: [
+      "Develop a dashboard for managing game streams, including scheduling, stream keys, and performance metrics. Support integration with streaming platforms.",
+      "Implement chat management tools for moderating, filtering, and highlighting messages. Support custom commands, emotes, and moderation logs.",
+      "Build a system for creating and managing stream overlays, including alerts, widgets, and branding. Support real-time updates and customization.",
+      "Add analytics tracking for viewer count, chat activity, and stream performance. Provide visual dashboards and exportable reports.",
+      "Create a highlight editor for clipping and sharing memorable stream moments. Support timeline editing, annotations, and social sharing.",
+      "Implement tools for engaging viewers, such as polls, giveaways, and loyalty programs. Support chat-based interactions and reward systems."
     ],
     resources: {
       "Twitch API": "Streaming platform integration",
@@ -291,6 +408,14 @@ const roadmapGuides = {
       "Create revision tracker",
       "Implement goal setting"
     ],
+    descriptions: [
+      "Develop a centralized dashboard where writers can create, manage, and organize multiple writing projects. This organizer should allow users to add new projects, categorize them by genre or status, set deadlines, and view an overview of all ongoing and completed works. Features may include project folders, color-coded tags, and quick access to recent documents.",
+      "Integrate a real-time word and character counter within the writing editor. This tool should provide instant feedback on word count, character count, and reading time. Advanced features can include daily writing goals, progress tracking, and visualizations (such as charts) to motivate users and help them stay on track with their targets.",
+      "Create a dedicated section for managing characters in a story. Writers should be able to add character profiles, including names, descriptions, backgrounds, relationships, and images. The character manager can also support linking characters to specific scenes or chapters, tracking character arcs, and visualizing relationships between characters.",
+      "Introduce tools to help writers outline and structure their stories. This can include drag-and-drop scene cards, timeline views, and chapter breakdowns. Writers should be able to rearrange scenes, add notes, and visualize the overall plot structure. Additional features might include templates for common story structures (e.g., three-act, hero's journey).",
+      "Implement a system for tracking revisions and edits across drafts. Writers should be able to save different versions of their work, compare changes between drafts, and restore previous versions if needed. The revision tracker can also highlight changes, provide edit histories, and allow for comments or notes on specific revisions.",
+      "Allow writers to set and track personal writing goals, such as daily word counts, project deadlines, or chapter completion dates. The system should provide reminders, progress bars, and motivational messages. Integration with calendars and notifications can help keep writers accountable and motivated to achieve their writing objectives."
+    ],
     resources: {
       "Draft.js": "Rich text editor",
       "React.js": "Frontend framework",
@@ -310,6 +435,14 @@ const roadmapGuides = {
       "Add photo organizer",
       "Create travel journal",
       "Implement recommendations"
+    ],
+    descriptions: [
+      "Develop a planner for organizing trips, including destinations, accommodations, and activities. Support itinerary building, maps, and sharing.",
+      "Implement an expense tracker for managing travel budgets, expenses, and receipts. Support currency conversion, categorization, and reporting.",
+      "Build a route mapper for planning travel routes, including driving, walking, and public transit options. Support map integration and route optimization.",
+      "Add tools for organizing and tagging travel photos. Support albums, geotagging, and sharing with travel companions.",
+      "Create a digital travel journal for documenting experiences, notes, and memories. Support multimedia entries and export options.",
+      "Implement a recommendation system for suggesting destinations, activities, and restaurants based on user preferences and past trips."
     ],
     resources: {
       "Google Maps API": "Location services",
@@ -331,6 +464,14 @@ const roadmapGuides = {
       "Create inventory tracker",
       "Implement feedback system"
     ],
+    descriptions: [
+      "Develop a client manager for tracking client profiles, preferences, and history. Support appointment scheduling and communication logs.",
+      "Implement a wardrobe system for cataloging client clothing, accessories, and outfits. Support tagging, search, and outfit planning.",
+      "Build a look book creator for assembling and sharing outfit ideas. Support templates, annotations, and client feedback.",
+      "Add a style calendar for scheduling styling sessions, events, and reminders. Support recurring appointments and calendar integration.",
+      "Create an inventory tracker for managing clothing and accessory stock. Support alerts for low stock and inventory reports.",
+      "Implement a feedback system for collecting and responding to client feedback. Support ratings, testimonials, and follow-up actions."
+    ],
     resources: {
       "Cloudinary": "Image management",
       "Vue.js": "Frontend framework",
@@ -350,6 +491,14 @@ const roadmapGuides = {
       "Add progress metrics",
       "Create visualization tools",
       "Implement client feedback"
+    ],
+    descriptions: [
+      "Develop a goal tracker for setting, tracking, and achieving personal or client goals. Support milestones, reminders, and progress visualization.",
+      "Implement a habit system for building and tracking positive habits. Support streaks, habit reminders, and analytics.",
+      "Build an action planner for breaking down goals into actionable steps. Support task lists, deadlines, and prioritization.",
+      "Add tools for tracking progress metrics, such as completion rates, consistency, and outcomes. Support visual dashboards and reports.",
+      "Create visualization tools for displaying progress, trends, and achievements. Support charts, graphs, and milestone celebrations.",
+      "Implement a feedback system for collecting and responding to client feedback. Support surveys, testimonials, and improvement tracking."
     ],
     resources: {
       "Chart.js": "Data visualization",
@@ -371,6 +520,14 @@ const roadmapGuides = {
       "Create collaboration tools",
       "Implement publication manager"
     ],
+    descriptions: [
+      "Develop a project organizer for managing research projects, including objectives, timelines, and team assignments. Support project templates and progress tracking.",
+      "Implement a data tracker for collecting, storing, and analyzing experimental data. Support data import/export, validation, and versioning.",
+      "Build analysis tools for processing and interpreting research data. Support statistical analysis, visualization, and reporting.",
+      "Add a visualization system for creating charts, graphs, and interactive data displays. Support customization and export options.",
+      "Create collaboration tools for sharing data, documents, and findings with team members. Support permissions, comments, and version control.",
+      "Implement a publication manager for preparing, submitting, and tracking research publications. Support templates, submission tracking, and citation management."
+    ],
     resources: {
       "Python": "Data analysis",
       "React.js": "Frontend framework",
@@ -390,6 +547,14 @@ const roadmapGuides = {
       "Add assessment tools",
       "Create reporting system",
       "Implement feedback collection"
+    ],
+    descriptions: [
+      "Develop a client manager for tracking client profiles, goals, and progress. Support appointment scheduling, notes, and communication logs.",
+      "Implement a progress tracker for monitoring client outcomes, milestones, and adherence to plans. Support visual dashboards and progress reports.",
+      "Build a treatment planner for creating and managing personalized wellness plans. Support templates, scheduling, and plan adjustments.",
+      "Add assessment tools for evaluating client health, fitness, and wellness. Support surveys, tests, and automated scoring.",
+      "Create a reporting system for generating client progress and outcome reports. Support export, sharing, and integration with other systems.",
+      "Implement a feedback collection system for gathering client feedback, testimonials, and suggestions. Support surveys, ratings, and follow-up actions."
     ],
     resources: {
       "Chart.js": "Progress visualization",

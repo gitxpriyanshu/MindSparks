@@ -93,7 +93,7 @@ const IdeaGenerator = ({ category, onBackClick, onIdeasGenerated, persistedIdeas
       <h2 className="category-title">{categoryTitles[category] || category}</h2>
       <p className="app-subtitle">Click the button below to generate random content ideas</p>
       
-      <button onClick={generateRandomIdeas} className="generate-button">Generate 3 Ideas</button>
+      <button onClick={generateRandomIdeas} className="generate-button">Generate  Ideas</button>
       <button onClick={onBackClick} className="back-button">Back to Categories</button>
       
       <div className="idea-cards-container">
