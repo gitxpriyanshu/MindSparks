@@ -1,10 +1,9 @@
 import React from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import roadmapGuides from '../roadmaps';
 
 const RoadmapGuide = () => {
   const { category } = useParams();
-  const navigate = useNavigate();
 
   // Resource links mapping
   const resourceLinks = {
@@ -52,10 +51,7 @@ const RoadmapGuide = () => {
     return (
       <div className="roadmap-guide">
         <div className="back-button">
-          <a href="#" onClick={(e) => {
-            e.preventDefault();
-            navigate('/');
-          }}>Back to Ideas</a>
+          <Link to="/">Back to Ideas</Link>
         </div>
         <div className="no-roadmap">
           <h2>No roadmap available for this category.</h2>
@@ -79,10 +75,7 @@ const RoadmapGuide = () => {
   return (
     <div className="roadmap-guide">
       <div className="back-button">
-        <a href="#" onClick={(e) => {
-          e.preventDefault();
-          navigate('/');
-        }}>Back to Ideas</a>
+        <Link to="/">Back to Ideas</Link>
       </div>
       
       <h1>{guide.title}</h1>

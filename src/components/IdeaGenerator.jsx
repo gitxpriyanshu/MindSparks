@@ -17,6 +17,7 @@ const IdeaGenerator = ({ category, onBackClick, onIdeasGenerated, persistedIdeas
     } else {
       setCurrentIdeas(persistedIdeas);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [category]);
   
   const generateRandomIdeas = () => {
